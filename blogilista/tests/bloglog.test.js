@@ -85,6 +85,7 @@ describe('HTTP POST to /api/blogs', () => {
     const blogsAfterPost = await api.get('/api/blogs')
     const bl = blogsAfterPost.body
 
+    // eslint-disable-next-line no-unused-vars
     const ml = bl.map(({ id, user, ...rest }) => rest)
 
     expect(ml).toContainEqual(testBlog)
