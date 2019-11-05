@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkJybyIsImlkIjoiNWRjMTczNmZkNjI0ZTEyZDFjY2Q1MjI5IiwiaWF0IjoxNTcyOTkwNjAwfQ.q4wgLery_vj55SmaKvZmwrp3sstV2RqazDIHw7JIe90
+
+{
+  "title": "FinalTest¨3",
+  "author": "Idk3",
+  "url": "www.3.gov",
+  "likes": 0
+}
